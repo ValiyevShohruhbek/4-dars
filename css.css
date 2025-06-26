@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.ramka {
+  width: 670px;
+  height: 600px;
+  border: 2px ;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.Box1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 30px;
+}
+.Box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.Form {
+  display: flex;
+}
+
+.label {
+  font-size: 25px;
+}
+
+.labinp input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+}
+
+.labinp {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 670px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+
+  background: #3f5efb;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(165, 72, 236, 1) 100%,
+    rgba(70, 85, 252, 1) 0%
+  );
+}
+
+.check {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.check input,
+label {
+  margin-right: 5px;
+  outline: none;
+}
+
+.chiziq {
+  border: 2px solid blueviolet;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+h2 {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+body {
+  background: #3f5efb;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(165, 72, 236, 1) 100%,
+    rgba(70, 85, 252, 1) 0%
+  );
+}

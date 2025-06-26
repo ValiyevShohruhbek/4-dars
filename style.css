@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #34495e;
+}
+.register {
+  width: 750px;
+  height: 580px;
+  border: 2px;
+  background-color: #2e86c1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.register input {
+  width: 650px;
+  height: 50px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.register-btn {
+  width: 650px;
+  height: 50px;
+  background-color: #cb4335;
+  color: white;
+  border: none;
+}
+
+.register form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sarlavha {
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
